@@ -132,8 +132,8 @@ nav {
     width: 100%;
 }
 #brandImg{
-    width: 590px;
-    height: 512px;
+    width: 100%;
+    height: auto;
     margin-top: 70px;
     padding: 0px 30px;
 }
@@ -484,8 +484,11 @@ margin: 3px;
 .container-fluid {
     width: 100%;
 }
+#front-javascript{
+    width: 100%;
+}
  
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .progressive img {width:100%;height: auto;
     }
 
@@ -495,16 +498,16 @@ margin: 3px;
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  /* @media only screen and (min-width: 768px) {
     .progressive img  {width:100%;height: auto;}
-  } 
+  }  */
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  /* @media only screen and (min-width: 992px) {
     .progressive img  {width:100%;height: auto}
-  } 
+  }  */
   
-@media only screen and (max-width: 1200px){
+/* @media only screen and (max-width: 1200px){
     .progressive img {width:100%;height: auto;
     }
-}
+}  */
