@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1d3ebef0ab.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+        <script src="index.js"></script>
+    </head>
+    
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <picture>
+            <source type="image/webp" src="./assets/images/jb (1).webp">
+
+            <img id="logo" src="./assets/images/jb (1).webp" alt="johan-bueno-logo">
+        </picture>
+        <a class="navbar-brand" href="#">Johan Bueno</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menu">
+                <li >
+                    <a id="activ" href="#">HOME <span></span></a>
+                </li>
+                <li class="nav-item">
+                   <a href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/johan-bueno-3a180496/">HIRE ME</a>
+                </li>
+
+            </ul>
+            <div>
+                <ul class="links">
+                    <li >
+                        <a class="fab fa-github" href="https://github.com/johanbueno"></a>
+                    </li>
+                    <li>
+                        <a class="fab fa-linkedin" href="https://www.linkedin.com/in/johan-bueno-3a180496/"></a>
+                    </li>
+                    <li >
+                        <a class="fas fa-file"
+                            href="https://docs.google.com/document/d/1kneCToLGQKgo7vrpij5o6g_beqGLtvgf94n0cTnD1-w/edit?usp=sharing">
+                        </a>
+                    </li>
+                    <li >
+                        <a class="fas fa-envelope" href="mailto:johan.s.bueno@gmail.com"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="jumbotron jumbotron-fluid contact-intro">
+        <div class="container">
+            <h6 class="display-4">Contact me</h6>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form action="mailto:johan.s.bueno@gmail.com" method="post" enctype="text/plain" class="col-md-8 form">
+                <label for="name">Your Name </label>
+                <br>
+                <input name="name" class="form-control" type="text">
+                <label for="email">Your Email</label>
+                <br>
+                <input name="mail" class="form-control" type="email">
+                <label for="subject">Subject</label>
+                <br>
+                <input name="subject" class="form-control" type="text">
+                <label for="Message">Message</label>
+                <br>
+                <input name="comment" class="form-control" id="msm" type="text">
+
+                <button id="submit-contact" type="submit" class="btn btn-primary" value="Send">Submit</button>
+            </form>
+
+
+
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div>
+        <div id="lead-top" class="backtotop">
+            <i class="fas fa-arrow-up"> </i>
+        </div>
+    </div>
+    <footer >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-8">
+    
+                    <div> Copyright © 2020 </div>
+                    <div><a style="color: #f7ab00;" href="index.html">Johan Bueno</a></div>
+                    <div> All Rights Reserved </div>
+        
+                </div>
+                <div class=" col-md-3 links">
+        
+                    <li style="font-size: 20px; color: black">
+                        <a class="fab fa-github" href="https://github.com/johanbueno"></a>
+                    </li>
+                    <li style="font-size: 20px; color: black">
+                        <a class="fab fa-linkedin" href="https://www.linkedin.com/in/johan-bueno-3a180496/"></a>
+                    </li>
+                    <li style="font-size: 20px; color: black">
+                        <a class="fas fa-file"
+                            href="https://docs.google.com/document/d/1FMf7T5so_sac4FqvwdbPdpkXCgfbQ_DDcNWX3oh4fcg/edit?usp=sharing">
+                        </a>
+                    </li>
+                    <li style="font-size: 20px; color: black">
+                        <a class="fas fa-envelope" href="mailto:johan.s.bueno@gmail.com"></a>
+                    </li>
+        
+                </div>
+            </div>
+        </div>
+       
+       
+
+
+    </footer>
+</body>
+
+<script>
+    $('#lead-top').click(function() {
+    window.scrollTo(0,0)
+    },)
+</script>
+</html>
