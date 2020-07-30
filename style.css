@@ -170,6 +170,7 @@ nav {
     height: auto;
     width: 100%;
     text-align: left;
+    font-size:x-large;
     justify-content: inherit;
 }
 .entry-header p{
