@@ -131,6 +131,9 @@ nav {
 #navbarNav{
     width: 100%;
 }
+#cite {
+    float: right;
+}
 #brandImg{
     width: 100%;
     height: auto;
