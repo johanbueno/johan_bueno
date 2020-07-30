@@ -226,7 +226,7 @@ nav {
 .card {
     display: grid;
     width: 250px;
-    height: 350px;
+    height: 365px;
     float: left;
     margin: 0 auto;
 
@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Playfair Display', serif;
 }
 .contact-intro {
-    background-image: url(./assets/images/UNADJUSTEDNONRAW_thumb_11ee.jpg);
+    background-color:#64717717;
     height: 550px;
 }
 #msm {
@@ -397,6 +397,16 @@ h1, h2, h3, h4, h5 {
 }
 #submit-contact{
     float: right;
+}
+.profile-container{
+    text-align: center;
+}
+#profile-pic{
+    margin: 0 auto;
+    width: 240px;
+    height: 230px;
+    border-radius: 50%;
+    border: 3px solid black;
 }
 .form input {
 margin: 3px;
